@@ -13,3 +13,5 @@ require 'DateTime_data-absolute.inc';
 --EXPECT--
 test_absolute_7: DIFF: 2009-01-14 00:00:00 EST - 2009-01-07 00:00:00 EST = **P+0Y0M7DT0H0M0S**
 test_absolute_negative_7: DIFF: 2009-01-07 00:00:00 EST - 2009-01-14 00:00:00 EST = **P+0Y0M7DT0H0M0S**
+test_absolute_2: DIFF: 2009-01-31 00:00:00 UTC - 2009-03-01 00:00:00 UTC = **P+0Y1M1DT0H0M0S**
+test_absolute_negative_2: DIFF: 2009-03-01 00:00:00 UTC - 2009-01-31 00:00:00 UTC = **P+0Y1M1DT0H0M0S**
